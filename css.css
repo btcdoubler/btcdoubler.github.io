@@ -1,0 +1,38 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://web.archive.org/web/20180107123656im_/https://fonts.gstatic.com/s/raleway/v11/yQiAaD56cjx1AooMTSghGfY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://web.archive.org/web/20180107123656im_/https://fonts.gstatic.com/s/raleway/v11/0dTEPzkLWceF7z0koJaX1A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/*
+     FILE ARCHIVED ON 12:36:56 Jan 07, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:32:20 Oct 07, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 0.243
+  RedisCDXSource: 65.498
+  exclusion.robots.policy: 0.228
+  LoadShardBlock: 55.868 (3)
+  PetaboxLoader3.resolve: 76.656
+  esindex: 0.018
+  captures_list: 135.525
+  load_resource: 317.79
+  PetaboxLoader3.datanode: 69.418 (4)
+  CDXLines.iter: 11.45 (3)
+*/

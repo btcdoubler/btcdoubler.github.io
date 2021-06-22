@@ -1,0 +1,318 @@
+
+.COINWIDGETCOM_CONTAINER {
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    height: auto;
+}
+.COINWIDGETCOM_CONTAINER.COINWIDGETCOM_DARK > a {
+    background: #03233a none repeat scroll 0 0;
+    color: #fff;
+}
+.COINWIDGETCOM_CONTAINER.COINWIDGETCOM_DARK > span {
+    background: #05385d none repeat scroll 0 0;
+    border-left: 2px solid #deecf6;
+    color: #fff;
+    position: relative;
+}
+.COINWIDGETCOM_CONTAINER.COINWIDGETCOM_DARK > span::after {
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #05385d;
+    border-top: 10px solid transparent;
+    content: "";
+    left: -8px;
+    margin-top: -10px;
+    position: absolute;
+    top: 50%;
+    z-index: 2147483647;
+}
+.COINWIDGETCOM_CONTAINER.COINWIDGETCOM_DARK > span::before {
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #deecf6;
+    border-top: 10px solid transparent;
+    content: "";
+    left: -10px;
+    margin-top: -10px;
+    position: absolute;
+    top: 50%;
+    z-index: 2147483647;
+}
+.COINWIDGETCOM_CONTAINER.COINWIDGETCOM_DARK > a:hover {
+    background: #15709d none repeat scroll 0 0;
+}
+.COINWIDGETCOM_CONTAINER.COINWIDGETCOM_LIGHT > a {
+    background: #e2e2e2 none repeat scroll 0 0;
+    color: #2e2e2e;
+}
+.COINWIDGETCOM_CONTAINER.COINWIDGETCOM_LIGHT > span {
+    background: #f7f7f7 none repeat scroll 0 0;
+    border-left: 2px solid #bdbdbd;
+    color: #2e2e2e;
+    position: relative;
+}
+.COINWIDGETCOM_CONTAINER.COINWIDGETCOM_LIGHT > span::after {
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #f7f7f7;
+    border-top: 10px solid transparent;
+    content: "";
+    left: -8px;
+    margin-top: -10px;
+    position: absolute;
+    top: 50%;
+    z-index: 2147483647;
+}
+.COINWIDGETCOM_CONTAINER.COINWIDGETCOM_LIGHT > span::before {
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #bdbdbd;
+    border-top: 10px solid transparent;
+    content: "";
+    left: -10px;
+    margin-top: -10px;
+    position: absolute;
+    top: 50%;
+    z-index: 2147483647;
+}
+.COINWIDGETCOM_CONTAINER.COINWIDGETCOM_LIGHT > a:hover {
+    background: #f7f7f7 none repeat scroll 0 0;
+}
+.COINWIDGETCOM_CONTAINER.COINWIDGETCOM_SMALL > a {
+    font-size: 11px;
+    line-height: 1.2em;
+    padding: 5px 12px 5px 8px;
+}
+.COINWIDGETCOM_CONTAINER.COINWIDGETCOM_SMALL > span {
+    font-size: 11px;
+    line-height: 1.2em;
+    padding: 7px 9px 6px 6px;
+    z-index: 0;
+}
+.COINWIDGETCOM_CONTAINER.COINWIDGETCOM_BIG > a {
+    font-size: 15px;
+    line-height: 1.2em;
+    padding: 10px 20px 10px 15px;
+}
+.COINWIDGETCOM_CONTAINER.COINWIDGETCOM_BIG > span {
+    font-size: 15px;
+    line-height: 1.2em;
+    padding: 11px 15px 10px;
+}
+.COINWIDGETCOM_CONTAINER > span, .COINWIDGETCOM_CONTAINER > a {
+    display: inline-block;
+    vertical-align: middle;
+}
+.COINWIDGETCOM_CONTAINER > a > img, .COINWIDGETCOM_CONTAINER > a > span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.COINWIDGETCOM_CONTAINER > a > span {
+    margin: 0 3px;
+}
+.COINWIDGETCOM_CONTAINER > span > img, .COINWIDGETCOM_CONTAINER > a > img {
+    border: 0 none;
+    padding: 0;
+}
+.COINWIDGETCOM_WINDOW {
+    background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+    bottom: 0;
+    left: 0;
+    min-height: 200px;
+    overflow: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+.BLOCKRWIDGET_FRAME {
+    background: teal none repeat scroll 0 0;
+    box-sizing: content-box;
+    font-family: 'Raleway', sans-serif;
+    left: 50%;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    width: 500px;
+    z-index: 2147483647;
+    transform: translate(-50%, -50%);
+}
+.BLOCKRWIDGET_FRAME .form-control {
+    margin: 0 auto;
+    width: 65%;
+    text-align: center;
+}
+.BLOCKRWIDGET_FRAME .COINWIDGET_ADDRESS {
+    border-bottom: 1px solid rgba(63, 93, 116, 0.7);
+    margin-bottom: 15px;
+    padding: 15px 0;
+    position: relative;
+    z-index: 2147483647;
+}
+.BLOCKRWIDGET_FRAME > label {
+    border-bottom: 1px solid rgba(63, 93, 116, 0.7);
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 0;
+    padding-bottom: 8px;
+    width: 100%;
+}
+.COINWIDGET_ADDRESS .COINWIDGET_INPUT_ICON {
+    left: 15px;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 40px;
+    height: 40px;
+    z-index: 2147483647;
+    animation: zoom .5s infinite alternate;
+}
+.COINWIDGET_ADDRESS > input {
+    box-sizing: border-box;
+    display: block;
+    font-size: 13px;
+    padding: 4px 3px 4px 11px;
+    width: 260px;
+}
+.BLOCKRWIDGET_FRAME > a.COINWIDGETCOM_CLOSER {
+    color: #fff;
+    padding: 3px 10px;
+    position: absolute;
+    right: 0;
+    text-decoration: none;
+    top: 0;
+}
+.BLOCKRWIDGET_FRAME > a.COINWIDGETCOM_CLOSER:hover {
+    color: #aaa;
+}
+.COINWIDGET_ADDRESS > a img {
+    border: medium none;
+    margin: 0;
+    padding: 0;
+}
+.COINWIDGET_ADDRESS > a.COINWIDGETCOM_WALLETURI {
+    left: auto !important;
+    position: absolute;
+    right: 15px;
+    top: 12px !important;
+}
+.BLOCKRWIDGET_ADDRESS_INFO {
+    margin-bottom: 10px;
+}
+.BLOCKRWIDGET_ADDRESS_INFO > .clear {
+    clear: both;
+}
+.BLOCKRWIDGET_ADDRESS_INFO > span {
+    color: #fff !important;
+    display: block;
+    float: left;
+    font-size: 17px;
+    margin-bottom: 10px;
+    min-height: 35px;
+    padding: 3px 0;
+    text-align: left;
+    text-transform: uppercase;
+    width: auto;
+}
+.BLOCKRWIDGET_ADDRESS_INFO > span.end {
+    border-left: 1px solid rgba(63, 93, 116, 0.7);
+    margin-left: 10px;
+    padding-left: 10px;
+}
+.BLOCKRWIDGET_ADDRESS_INFO > span.COINWIDGETCOM_GOAL {
+    border-bottom: 1px solid rgba(63, 93, 116, 0.7);
+    border-top: 1px solid rgba(63, 93, 116, 0.7);
+    clear: both;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 13px;
+    margin-top: 10px;
+    min-height: inherit;
+    padding-bottom: 7px;
+    padding-top: 10px;
+    width: 100%;
+}
+.BLOCKRWIDGET_ADDRESS_INFO > span.COINWIDGETCOM_GOAL > small {
+    float: left;
+    font-weight: bold;
+    margin: 0 10px 0 0;
+}
+.BLOCKRWIDGET_ADDRESS_INFO > span > small {
+    color: #cbddea;
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 13px;
+    margin-bottom: 3px;
+}
+.BLOCKRWIDGET_CREDITS {
+    border-top: 1px solid rgba(63, 93, 116, 0.7);
+    margin-top: 13px;
+    padding-top: 5px;
+}
+.BLOCKRWIDGET_FRAME > .BLOCKRWIDGET_QRCODE {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 3px;
+    margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+    text-align: center;
+}
+.BLOCKRWIDGET_FRAME > .BLOCKRWIDGET_QRCODE > .COINWIDGETCOM_QRCODE_LARGE {
+    margin-left: 20px;
+}
+.BLOCKRWIDGET_FRAME > .BLOCKRWIDGET_QRCODE > .COINWIDGETCOM_PHONE {
+    height: 39px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 29px;
+    z-index: 2147483647;
+}
+
+/* MINE */
+.COINWIDGETCOM_CONTAINER {
+    width: 250px;
+}
+.COINWIDGETCOM_CONTAINER.COINWIDGETCOM_DARK > a {
+    background: #1e429d none repeat scroll 0 0;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 35px !important;
+    transition: all 0.3s ease 0s;
+}
+.COINWIDGETCOM_BUTTON_BITCOIN> img {
+    animation: zoom .5s infinite alternate;
+    display: inline-block;
+    height: 35px;
+    margin-right: 10px !important;
+    width: 35px;
+    transform: scale(.6);
+}
+@keyframes zoom {
+    from {
+        transform: scale(.6);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+/*
+     FILE ARCHIVED ON 11:20:15 Jan 07, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:32:20 Oct 07, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  load_resource: 218.468
+  captures_list: 243.408
+  esindex: 0.019
+  exclusion.robots.policy: 0.303
+  PetaboxLoader3.datanode: 199.255 (4)
+  exclusion.robots: 0.328
+  PetaboxLoader3.resolve: 133.847
+  CDXLines.iter: 13.607 (3)
+  LoadShardBlock: 217.698 (3)
+  RedisCDXSource: 8.464
+*/

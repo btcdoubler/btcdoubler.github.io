@@ -1,0 +1,300 @@
+*:not(.glyphicon), *(.glyphicon)::after, *(.glyphicon)::before:not {
+    font-family: 'Raleway', sans-serif;
+}
+body {
+    background: #20b2aa;
+    font-family: 'Raleway', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a:visited {
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+* {
+    position: relative;
+}
+
+#site-name {
+    float: left;
+    line-height: 70px;
+    margin: 0 0 0 10px;
+}
+
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+#menu-header li:hover {
+    color:
+}
+
+#header-container {
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+    min-height: 70px;
+}
+
+#content-container {
+    background: #E3E3E3;
+    padding-bottom: 20px;
+}
+
+#content-container h3 {
+    text-align: center;
+}
+
+#content-container p {
+    text-align: center;
+}
+
+#logo {
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    background-image: url(/web/20180107134217im_/http://btcfree.website/bitcoin.png);
+    background-size: cover;
+}
+
+#menu-header li {
+    font-family: 'Raleway', sans-serif;
+    color: #9FDD87;
+    float: right;
+    padding: 0 20px;
+    line-height: 70px;
+    margin-left: 5px;
+    font-size: 22px;
+}
+
+#slider-container h1 {
+    color: #fff;
+    font-size: 50px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, .8);
+    text-align: center;
+}
+
+#slider-container p {
+    color: #fff;
+}
+
+#footer-container {
+    background: #eee;
+}
+
+#slider-container { /*min-height: 500px;*/
+    padding: 0 !important;
+    background-image: url(/web/20180107134217im_/http://btcfree.website/o-BITCOINS-facebook.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#slider-container-black {
+    padding-bottom: 30px !important;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+label, #label {
+    font-weight: 700;
+    margin-bottom: 5px;
+    max-width: 100%;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    text-align: center;
+    display: block;
+    font-size: 22px;
+}
+
+input:not(.form-control) {
+    width: 70% !important;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px !important;
+    background-color: rgba(255, 255, 255, .7) !important;
+}
+
+button {
+    margin: 0 auto !important;
+    display: block !important;
+    width: 100px;
+}
+
+#our-key {
+    color: #077A32;
+}
+
+#your-key {
+    color: #2A79AD;
+}
+
+table {
+    text-align: center;
+    word-wrap: break-word;
+}
+
+#footer-container {
+    text-align: center;
+}
+
+.ad-img {
+    opacity: .7;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.glth {
+    font-size: 100px;
+    text-align: center;
+    display: block;
+    opacity: .3;
+    margin-top: 30px;
+}
+.top-navbar > ul {
+    margin: 0;
+}
+
+.top-navbar li {
+    padding: 0 20px;
+}
+
+.top-navbar li > a {
+    display: block;
+    line-height: 70px;
+    color: #fff;
+}
+
+.top-navbar li > a:focus, .top-navbar li > a:hover, .top-navbar li > a:active {
+    outline: 0 none;
+    text-decoration: none;
+}
+.alert-success {
+    background-color: teal;
+}
+.offer {
+    font-size: 35px;
+}
+.underline {
+    text-decoration: underline;
+}
+.form-group {
+    display: block;
+}
+.dropdown-menu > form {
+    padding: 10px 15px;
+}
+.dropdown-menu {
+    width: 400px;
+    color: #424242;
+    right: 0;
+    left: auto;
+}
+.dropdown-menu.padded {
+    padding: 15px;
+}
+.dropdown-menu label {
+    color: #000;
+    text-align: left;
+    font-weight: normal;
+    font-size: 14px;
+}
+.form-control::-webkit-input-placeholder {
+    opacity: .75;
+    font-weight: normal;
+}
+
+.form-control:-moz-placeholder { /* Firefox 18- */
+    opacity: .75;
+    font-weight: normal;
+}
+
+.form-control::-moz-placeholder {  /* Firefox 19+ */
+    opacity: .75;
+    font-weight: normal;
+}
+
+.form-control:-ms-input-placeholder {
+    opacity: .75;
+    font-weight: normal;
+}
+.text-justify {
+    line-height: 1.7;
+}
+@media (max-width: 790px) {
+    #header-container {
+        text-align: center;
+    }
+    #site-name, #logo {
+        float: none;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .top-navbar {
+        float: none !important;
+    }
+}
+@media (max-width: 480px) {
+    #site-name {
+        font-size: 30px;
+    }
+    .top-navbar li {
+        padding: 0 5px;
+    }
+    .top-navbar li > a {
+        font-size: 12px;
+    }
+}
+.footer {
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-image: url(/web/20180107134217im_/http://btcfree.website/o-BITCOINS-facebook.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 12px;
+}
+.default-font {
+    font-family: Helvetica Neue, Helvetical, Arial, sans-serif;
+}
+#fixed {position:fixed;bottom:15px;left:5px;z-index:10;}
+.fixed-item {display:block;margin-bottom:5px;background-position: center center;background-repeat:no-repeat;background-size:cover;width:30px;height:30px;}
+.instagram {background-image:url('/web/20180107134217im_/http://btcfree.website/instagram.png');}
+.twitter {background-image:url('/web/20180107134217im_/http://btcfree.website/twitter.png');}
+.linkedin {background-image:url('/web/20180107134217im_/http://btcfree.website/linkedin.png');}
+/*
+     FILE ARCHIVED ON 13:42:17 Jan 07, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:32:20 Oct 07, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 0.19
+  RedisCDXSource: 9.057
+  load_resource: 92.085
+  LoadShardBlock: 285.441 (3)
+  esindex: 0.017
+  captures_list: 310.639
+  PetaboxLoader3.resolve: 249.48 (3)
+  CDXLines.iter: 13.159 (3)
+  exclusion.robots.policy: 0.175
+  PetaboxLoader3.datanode: 88.449 (4)
+*/
